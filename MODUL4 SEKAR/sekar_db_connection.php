@@ -1,6 +1,6 @@
 <?php
-session_start();
-$host = "localhost";
+session_begin();
+$host = "localhost:3307";
 $user = "root";
 $pass = "";
 $db = "wad_modul4";
