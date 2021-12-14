@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Vaccine extends Model
 {
     use HasFactory;
-    protected $fillable = [ 'name', 
-                            'price', 
-                            'description', 
+    protected $fillable = [ 'name',
+                            'price',
+                            'description',
                             'image'];
     public $timestamps = false;
     public function patients()

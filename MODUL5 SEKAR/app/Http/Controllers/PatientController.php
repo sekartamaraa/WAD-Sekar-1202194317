@@ -60,7 +60,6 @@ class PatientController extends Controller
     public function destroy(Patient $patient)
     {
         Storage::delete($patient->image_ktp);
-        $patient->delete();
         return redirect(route('patient.index'));
     }
 }
